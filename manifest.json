@@ -1,0 +1,19 @@
+{
+	"name" : "my-awesome-plugin", 
+	"description" : "just another super awesome plugin",
+	// "version" : "0.1",
+	"version" : "1.0",
+	"manifest_version" : 2,
+	// "background_page" : "background.html",
+	"background": "background.html",
+	"browser_action" : {
+		"popup" : "popup.html",
+		"default_icon" : "icon.gif"
+
+		// "default_icon": "icon.jpg",
+  //     "default_popup": "popup.html"
+	}, 
+	"permissions" : ["notifications"]
+}
+
+// https://chrome.google.com/extensions/developer/dashboard
